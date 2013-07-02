@@ -4,13 +4,13 @@ data << 10
 data << 4
 data.concat([30,42,58])
 
-# They could just do
+# You could just do
 #
 #    data = [1, 2, 35, 12]
 #
-# as long as they make an array of numbers
-# but they'll probably follow the pattern
-# in my example, which uses << and concat
+# as long as you make an array of numbers
+# but you might find the above patterns
+# in my example useful, which use << and concat
 
 # assume the first element is
 # both the largest and smallest
