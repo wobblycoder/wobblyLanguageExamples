@@ -33,6 +33,11 @@ data.each do |num|
    end
 end
 
+# Yes, there are clever ways to use inject and other approaches, 
+# but understanding the fundamental ways of working through a list
+# and using numeric comparisons and operations are beneficial for 
+# gaining a broader understanding 
+
 average = sum / data.length
 
 puts "list: #{data}"
