@@ -10,6 +10,12 @@ puts "the absolute value of x is #{x.abs}"
 s = "Hello, world!"
 puts s.upcase
 
+# even an array
+d = Array.new
+d << 10
+d << 20
+puts "The length of the array is #{d.length}"
+
 # what if we would like to make a new class (or kind) of variables, 
 # not a string or number, but representing something else?
 
