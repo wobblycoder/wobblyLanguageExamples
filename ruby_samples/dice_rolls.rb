@@ -1,3 +1,4 @@
+# by: wobblycoder
 rolls = Hash.new(0)
 
 samples = 10000
